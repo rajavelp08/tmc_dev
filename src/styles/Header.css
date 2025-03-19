@@ -98,7 +98,10 @@
   @media (max-width: 768px) {
     .logo {
       height: 40px; /* Smaller size for mobile */
-      margin-left: 25px;
+      margin-left: 0px;
+    }
+    #logo-1 {
+      display: none;
     }
   }
 
