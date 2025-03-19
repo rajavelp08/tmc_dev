@@ -13,6 +13,34 @@
     padding: 30px 0;
     text-align: center;
   }
+
+  #cafelogo{
+    height: 162px;
+    width: 316px;
+    /* animation: rotate 20s linear infinite; */
+    /* animation: swing 2s ease-in-out infinite alternate; */
+  }
+
+  @keyframes swing {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(10deg); /* Slight turn */
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+
+  /* @keyframes rotate {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(90deg);
+    }
+  } */
   
   .footer-container {
     display: flex;

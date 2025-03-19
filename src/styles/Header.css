@@ -25,6 +25,10 @@
     font-size: 24px;
     font-weight: bold;
   }
+
+  #logonew{
+    width: 290px;
+  }
   
   /* Navigation Links */
   .nav-links {

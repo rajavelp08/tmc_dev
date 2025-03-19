@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "../styles/Header.css";
 import logo from "../assets/TeaMaxLogo.avif";
 import logo1 from "../assets/teamax.jpg";
+import logonew from "../assets/logonew1.PNG";
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false); // State for mobile menu toggle
@@ -35,7 +36,7 @@ const Header = () => {
   return (
     <nav className="header">
       <div className="logo">
-      <img src={logo} alt="Logo" className="logo" />
+      <img src={logonew} alt="Logo" id="logonew" className="logo" />
       <img src={logo1} alt="Logo" id ="logo-1" className="logo" />
       </div>
 

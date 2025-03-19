@@ -1,6 +1,7 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import "../styles/Footer.css"
+import "../styles/Footer.css";
+import logonew from "../assets/logo1.png";
 
 const Contact = () => {
     return (
@@ -23,6 +24,9 @@ const Contact = () => {
         </div> */}
 
         {/* Contact Section */}
+        <div className="footer-section">
+          <img src={logonew} alt="Logo" id="cafelogo" className="logo" />
+        </div>
         <div className="footer-section">
           <h3>Contact Us</h3>
           <p>Email: jijo@tmcafe.com</p>
