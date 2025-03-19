@@ -1,4 +1,5 @@
 
+
 .footer {
     background-color: #2c2c2c;
     color: white;
@@ -7,7 +8,7 @@
   }
 
   .contact-footer {
-    background-color: white;
+    background-color: darkgrey;
     color: black;
     padding: 30px 0;
     text-align: center;

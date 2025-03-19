@@ -7,10 +7,10 @@ import Service from  "./components/Services";
 import Footer from  "./components/Footer";
 import ContactInfo from  "./components/Contact";
 
-const Home = () => <h2></h2>;
-const About = () => <h2></h2>;
-const Services = () => <h2></h2>;
-const Contact = () => <h2></h2>;
+const Home = () => {};
+const About = () => {};
+const Services = () => {};
+const Contact = () => {};
 
 function App() {
   return (
