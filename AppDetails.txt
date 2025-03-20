@@ -1,0 +1,24 @@
+TMC App Details:
+
+https://github.com/rajavelp08/tmc_dev
+rajavel.skct08@gmail.com
+
+GitKraken
+rajavel.skct08@gmail.com
+
+https://tmc-nkl.netlify.app/
+
+Neon DB:
+https://console.neon.tech/app/projects/calm-unit-89018728?database=neondb&branchId=br-lively-glade-a5hxjosh
+
+DB
+postgresql://neondb_owner:npg_rzRe2XC5tcmQ@ep-ancient-butterfly-a5xm3jml-pooler.us-east-2.aws.neon.tech/TMC_db?sslmode=require
+
+Host : ep-ancient-butterfly-a5xm3jml-pooler.us-east-2.aws.neon.tech
+Port : 5432
+Db : TMC_db
+Username : neondb_owner
+Pswd : npg_rzRe2XC5tcmQ
+
+
+dotnet ef dbcontext scaffold "Host=ep-ancient-butterfly-a5xm3jml-pooler.us-east-2.aws.neon.tech;Database=TMC_db;Port=5432;Username=neondb_owner;Password=npg_rzRe2XC5tcmQ" Npgsql.EntityFrameworkCore.PostgreSQL -o DbModels -c AppContext -f --context-dir Context --namespace TMC
